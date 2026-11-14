@@ -1,0 +1,21 @@
+MON BUDGET 2027 - application web (PWA)
+
+Mise en ligne
+1. Envoyez TOUS les fichiers de ce dossier sur un hébergement HTTPS
+   (Netlify, GitHub Pages, Cloudflare Pages ou votre propre domaine).
+2. Ouvrez l'adresse sur un téléphone et vérifiez que tout fonctionne.
+3. Le code QR du livre doit pointer vers une adresse que vous contrôlez.
+
+Important
+- HTTPS est obligatoire : sans lui, l'installation et le mode hors connexion ne marchent pas.
+- À chaque modification du site, changez la valeur VERSION au début de sw.js
+  (budget2027-v2, v3...). Sinon les téléphones gardent l'ancienne version.
+- Les données de chaque utilisateur restent dans son navigateur. S'il efface
+  les données du site ou change de téléphone, elles sont perdues : le bouton
+  "Sauvegarder" (onglet Année) sert à ça.
+
+Fichiers
+- index.html              l'application
+- manifest.webmanifest    nom, couleurs et icônes pour l'installation
+- sw.js                   mode hors connexion
+- icon-*.png, apple-touch-icon.png   icônes
