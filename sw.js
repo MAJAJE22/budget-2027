@@ -1,6 +1,6 @@
 // Mon Budget 2027 - mode hors connexion.
 // Changez VERSION à chaque mise à jour du site pour que les téléphones récupèrent la nouvelle version.
-var VERSION = "budget2027-v1";
+var VERSION = "budget2027-v2";
 var FILES = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon-maskable-512.png", "apple-touch-icon.png"];
 
 self.addEventListener("install", function (e) {
